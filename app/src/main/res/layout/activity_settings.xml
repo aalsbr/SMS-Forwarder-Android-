@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:layout_marginTop="80dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:background="@color/colorOrange"
+
+      >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <EditText
+                android:id="@+id/txtReceiverEmail"
+                android:layout_width="175dp"
+                android:layout_height="43dp"
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="68dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="20px"
+                android:ems="10"
+                android:hint="Enter PhoneNumber"
+
+                android:inputType="phone" />
+            <Button
+                android:id="@+id/btnSaveSettings"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="-50dp"
+                android:layout_marginEnd="8dp"
+                android:onClick="btnSaveSettingsClick"
+                android:textAlignment="center"
+                android:padding="10px"
+                android:text="Save " />
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="   SMS   "
+            android:layout_marginLeft="15dp"
+            android:background="#F8F8F8"
+            android:textSize="17sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/border"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/txtWhatsappnumber"
+            android:layout_width="175dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="68dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="20px"
+            android:ems="10"
+            android:hint="Enter PhoneNumber"
+
+            android:inputType="phone" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="260dp"
+        android:background="#F8F8F8"
+        android:text="     WhatsApp "
+        android:textSize="17sp" />
+
+    </RelativeLayout>
